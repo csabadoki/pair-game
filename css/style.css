@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color:rgb(99, 174, 236);
+    margin: 0;
+    padding: 0;
+    }
+
+.game {
+    align-items: center;
+    color: white;
+    display: flex;
+    flex-direction: column; 
+    text-transform: uppercase;t
+}
+
+.title {
+    padding-top: 2rem;
+    font-size: 1.8rem;
+}
+
+.click {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.timer {
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+.cards {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    height: 500px;
+    justify-content: space-evenly;
+}
+.card {
+    background-color: white;
+    display: flex;
+    width: 160px;
+    height: 220px;
+    margin: .5rem;
+    padding: 1.5rem;
+}
